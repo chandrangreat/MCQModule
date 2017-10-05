@@ -1,0 +1,1 @@
+[{"__symbolic":"module","version":3,"metadata":{},"exports":[{"from":"./mcq-player.module","export":["McqPlayerModule"]},{"from":"./mcq-player.component","export":["McqPlayerComponent"]}]},{"__symbolic":"module","version":1,"metadata":{},"exports":[{"from":"./mcq-player.module","export":["McqPlayerModule"]},{"from":"./mcq-player.component","export":["McqPlayerComponent"]}]}]

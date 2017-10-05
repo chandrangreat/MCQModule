@@ -1,0 +1,33 @@
+
+<md-card>
+  <h3>Create MCQ question</h3>
+
+  <md-form-field class="full-width-input">
+    <textarea mdInput [(ngModel)]="mcq.problemStatement.value" placeholder="Question" mdTextareaAutosize></textarea>
+  </md-form-field>
+
+  <md-form-field class="full-width-input">
+    <textarea [(ngModel)]="instructions" mdInput placeholder="Instructions (optional)" mdTextareaAutosize></textarea>
+  </md-form-field>
+
+  <h4>Options</h4>
+  <md-radio-group>
+    <div *ngFor="let option of mcq.options">
+      <md-radio-button value="{{option.id}}" (change)="onAnswerSelection(option)"></md-radio-button>
+      <md-form-field>
+        <input mdInput placeholder="Option" [(ngModel)]="option.value">
+      </md-form-field>
+      <button md-button (click)="removeOption()" color="primary">Remove Option</button>
+    </div>
+  </md-radio-group>
+
+  <div>
+    <md-radio-button disabled></md-radio-button>
+    <button md-button (click)="addOption()" color="primary">Add Option</button>
+  </div>
+
+  <md-card-actions class="mcq-card-action-section">
+    <button md-button (click)="saveAsDraft()" color="primary">Save as Draft</button>
+    <button md-button (click)="publishQuestion()" color="primary">Publish</button>
+  </md-card-actions>
+</md-card>
