@@ -1,7 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var mcq_player_module_1 = require("./mcq-player.module");
-exports.McqPlayerModule = mcq_player_module_1.McqPlayerModule;
-var mcq_player_component_1 = require("./mcq-player.component");
-exports.McqPlayerComponent = mcq_player_component_1.McqPlayerComponent;
+export { McqPlayerModule } from './mcq-player.module';
+export { McqPlayerComponent } from './mcq-player.component';
 //# sourceMappingURL=index.js.map
