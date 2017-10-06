@@ -1,6 +1,6 @@
 {
   "name": "mcqplayermodule",
-  "version": "1.1.3",
+  "version": "2.0.0",
   "description": "",
   "main": "mcq-player.umd.js",
   "module": "mcq-player.esm.js",
@@ -8,7 +8,7 @@
   "types": "mcq-player.d.ts",
   "scripts": {
     "copy": "node tools/copy-package.js && node tools/cleanup.js",
-    "bundle": "rimraf dist && rollup -c rollup.config.umd.js && rollup -c rollup.config.esm.js && tsc && ngc",    
+    "bundle": "rimraf dist && rollup -c rollup.config.umd.js && rollup -c rollup.config.esm.js && tsc && ngc",
     "postbundle": "node tools/removecode.js",
     "build": "npm run bundle && npm run copy"
   },
