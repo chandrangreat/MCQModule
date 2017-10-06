@@ -1,7 +1,10 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "",
+    "baseUrl": ".",
+    "stripInternal": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
     "outDir": "./dist",
     "sourceMap": true,
     "declaration": true,
@@ -9,7 +12,9 @@
     "module": "es2015",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "inlineSources": true,
     "target": "es5",
+    "skipLibCheck": true,
     "typeRoots": [
       "node_modules/@types"
     ],
