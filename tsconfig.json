@@ -1,19 +1,14 @@
 {
-  "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": ".",
-    "stripInternal": true,
-    "strictNullChecks": true,
-    "outDir": "./dist",
-    "sourceMap": true,
-    "declaration": true,
-    "moduleResolution": "node",
+    "target": "es5",
     "module": "es2015",
+    "sourceMap": true,
+    "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "inlineSources": true,
-    "target": "es5",
-    "skipLibCheck": true,
+    "declaration": true,
+    "outDir": "./dist",
     "typeRoots": [
       "node_modules/@types"
     ],
@@ -58,7 +53,7 @@
     }
   },
   "files": [
-    "./src/index.ts"
+    "./src/mcqplayermodule.ts"
   ],
   "angularCompilerOptions": {
     "skipTemplateCodegen": true
