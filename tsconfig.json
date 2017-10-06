@@ -53,7 +53,7 @@
     }
   },
   "files": [
-    "./src/mcqplayermodule.ts"
+    "./src/mcq-player.ts"
   ],
   "angularCompilerOptions": {
     "skipTemplateCodegen": true

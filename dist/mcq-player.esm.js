@@ -6008,4 +6008,4 @@ var McqPlayerModule = /** @class */ (function () {
 }());
 
 export { McqPlayerModule, McqPlayerComponent };
-//# sourceMappingURL=mcqplayermodule.esm.js.map
+//# sourceMappingURL=mcq-player.esm.js.map

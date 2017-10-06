@@ -1,7 +1,7 @@
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/common'), require('angular2-uuid'), require('@angular/forms'), require('@angular/platform-browser'), require('@angular/animations'), require('@angular/material')) :
 	typeof define === 'function' && define.amd ? define(['exports', '@angular/core', '@angular/common', 'angular2-uuid', '@angular/forms', '@angular/platform-browser', '@angular/animations', '@angular/material'], factory) :
-	(factory((global.mcqplayermodule = {}),global.core,global.common,global.angular2Uuid,global.forms,global.platformBrowser,global.animations,global.material));
+	(factory((global['mcq-player'] = {}),global.core,global.common,global.angular2Uuid,global.forms,global.platformBrowser,global.animations,global.material));
 }(this, (function (exports,core,common,angular2Uuid,forms,platformBrowser,animations,material) { 'use strict';
 
 function __decorate(decorators, target, key, desc) {
@@ -6011,4 +6011,4 @@ exports.McqPlayerComponent = McqPlayerComponent;
 Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
-//# sourceMappingURL=mcqplayermodule.umd.js.map
+//# sourceMappingURL=mcq-player.umd.js.map
