@@ -4,7 +4,6 @@
     "baseUrl": ".",
     "stripInternal": true,
     "strictNullChecks": true,
-    "noImplicitAny": true,
     "outDir": "./dist",
     "sourceMap": true,
     "declaration": true,
