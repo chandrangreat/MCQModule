@@ -2,7 +2,7 @@
   "name": "mcqplayermodule",
   "version": "1.1.1",
   "description": "",
-  "main": "index.js",
+  "main": "mcq-player.module.js",
   "module": "mcq-player.module.js",
   "jsnext:main": "mcq-player.module.js",
   "types": "mcq-player.module.d.ts",
