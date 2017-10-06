@@ -2,9 +2,9 @@
   "name": "mcqplayermodule",
   "version": "1.0.0",
   "description": "",
-  "main": "mcq-player.bundle.js",
+  "main": "index.js",
   "module": "mcq-player.module.js",
-  "jsnext:main": "mcq-player.mmoudle.js",
+  "jsnext:main": "mcq-player.module.js",
   "types": "mcq-player.module.d.ts",
   "scripts": {
     "clean": "rimraf .tmp && rimraf dist",
